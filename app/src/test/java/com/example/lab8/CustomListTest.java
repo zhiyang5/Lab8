@@ -52,7 +52,7 @@ public class CustomListTest {
         City city = new City("Estevan", "SK");
         list.addCity(city);
         int listSize=list.getCount();
-        assertEquals(listSize+1,list.getCount());
+        assertEquals(1,list.getCount());
         list.deleteCity(city);
         assertEquals(0,list.getCount());
     }
